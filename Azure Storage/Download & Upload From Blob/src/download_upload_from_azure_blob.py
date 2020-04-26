@@ -9,3 +9,7 @@ def download(blob_con_string,container_name,blob_name,download_file):
     with open(download_file,'wb') as out:
         out.write(data_stream.getvalue())
     out.close()
+
+def upload(blob_con_string,container_name,upload_full_file_path,local_full_file_path):
+    blob_service =  BlockBlobService(connection_string=blob_con_string)
+    blob_service.create_blob_from_path(container_name, upload_full_file_path,local_full_file_path)

@@ -1,5 +1,5 @@
 {
     "python.pythonPath": "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
     "python.linting.enabled": false,
-    "python.autoComplete.extraPaths": ["D:\\vikashcodebase\\Azure\\Azure Storage\\Download From Blob\\src"]
+    "python.autoComplete.extraPaths": ["D:\\vikashcodebase\\Azure\\Azure Storage\\Download & Upload From Blob\\src"]
 }
